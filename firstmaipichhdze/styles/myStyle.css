@@ -1,0 +1,243 @@
+
+body 
+{
+    direction:rtl;
+}
+#container {
+    width: 960px;
+    height: 635px;
+    margin: auto;
+    background-image: url('../imag/100.jpg');
+}
+header {
+    width: 240px;
+    border: 1px solid black;
+    padding: 10px 10px 10px 10px;
+    background-color: white;
+    font-size: 40px;
+    margin-right: 50px;
+    opacity: 0.7;
+    position: relative;
+    top: 30px;
+    margin-bottom:50px;
+}
+#e,#h,#c{
+    color:black;
+    font-size:x-large;
+}
+.tasoka {
+    margin-top: 20px;
+    width: 240px;
+    border: 1px solid black;
+    padding: 10px 10px 10px 10px;
+    background-color: white;
+    font-size: 0;
+    color: white;
+    margin-right: 50px;
+    opacity: 0.7;
+    -webkit-transition: all 100ms ease;
+    -moz-transition: all 100ms ease;
+    -ms-transition: all 100ms ease;
+    -o-transition: all 100ms ease;
+    transition: all 100ms ease;
+}
+
+    .tasoka:hover {
+        width: 240px;
+        border: 1px solid black;
+        padding: 10px 10px 10px 10px;
+        background-color: white;
+        font-size: large;
+        margin-right: 50px;
+        opacity: 0.7;
+        color: black;
+        margin-top: 20px;
+        -webkit-transition: all 100ms ease;
+        -moz-transition: all 100ms ease;
+        -ms-transition: all 100ms ease;
+        -o-transition: all 100ms ease;
+        transition: all 100ms ease;
+    }
+
+    /*#f:hover {
+        #tasoka{
+        width: 240px;
+        border: 1px solid black;
+        background-color: white;
+        opacity: 0.7;
+    }*/
+  }              
+  
+#hasckla {
+    margin-top:20px;
+    width: 240px;
+    border: 1px solid black;
+    padding: 10px 10px 10px 10px;
+    background-color: white;
+    bac font-size: x-large;
+    margin-right: 50px;
+    opacity: 0.7;
+}
+
+ul{
+    margin-right:15px;
+}
+
+h2{
+    font-size:x-large;
+}
+
+#hobbies {
+    margin-top: 20px;
+    width: 240px;
+    border: 1px solid black;
+    padding: 10px 10px 10px 10px;
+    background-color: white;
+    bac font-size: x-large;
+    margin-right: 50px;
+    opacity: 0.7;
+}
+
+#keser {
+    margin-top: 20px;
+    width: 240px;
+    border: 1px solid black;
+    padding: 10px 10px 10px 10px;
+    background-color: white;
+    bac font-size: x-large;
+    margin-right: 50px;
+    opacity: 0.7;
+}
+
+#blue {
+    color: blue;
+    list-style-image: url('../imag/f.PNG');
+    /*list-style-image: url('../imag/f.PNG');
+    width:10px;
+    height:10px;*/
+    /*background-image: url('../imag/f.PNG');*/
+}
+#red {
+    color: red;
+    list-style-image: url('../imag/maill.png');
+    /*list-style-image: url('../imag/m.PNG');
+    width: 10px;
+    height: 10px;*/
+    /*background-image: url('../imag/m.PNG');*/
+}
+
+
+/*#p2 {
+    background-image: url('../imag/MAI.jpg');
+    width: 100px;
+    height: 100px;
+    -webkit-transition: all 5s ease;
+    -moz-transition: all 5s ease;
+    -ms-transition: all 5s ease;
+    -o-transition: all 5s ease;
+    transition: all 5s ease;
+}
+
+
+    #p2:hover {
+        width: 100px;
+        height: 100px;
+        background-image: url('../imag/mil.jpg');
+        transition:ease
+            -webkit-transition: all 5s ease;
+        -moz-transition: all 5s ease;
+        -ms-transition: all 5s ease;
+        -o-transition: all 5s ease;
+        transition: all 5s ease;
+    }*/
+#pic {
+    margin-top: 20px;
+    width: 240px;
+    border: 1px solid black;
+    padding: 10px 10px 10px 10px;
+    background-color: white;
+    bac font-size: x-large;
+    margin-right: 50px;
+  
+  }
+    #pic li {
+        color: blue;
+        text-decoration: underline;
+        margin-top: 5px;
+        list-style-type: none;
+    }
+        #pic li:active {
+            width: 800px;
+            height: 800px;
+         
+            background-color: white;
+            position: relative;
+            bottom: 500px;
+        }
+/*#fi #sec #th #fo #fv {
+
+
+}
+#fi {
+    background-image: url('../imag/mac.jpg');
+    position: absolute;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+}
+
+#sec {
+    background-image: url('../imag/sport.jpg');
+    position: absolute;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+}
+
+#th {
+    background-image: url('../imag/famil.jpg');
+    position: absolute;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+}
+
+#fo {
+    background-image: url('../imag/chole.jpg');
+    position: absolute;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+}
+
+#fv {
+    background-image: url('../imag/friends.jpg');
+    background-size:contain;
+        position:absolute;
+    background-size:contain;
+    width:50px;
+    height:50px;
+}*/
+    #fi:active {
+        background-image: url('../imag/mac.jpg');
+        background-size: contain;
+    }
+#sec:active {
+    background-image: url('../imag/sport.jpg');
+    background-size: initial;
+}
+#th:active {
+    background-image: url('../imag/famil.jpg');
+    background-size:initial;
+}
+
+#fo:active {
+    background-image: url('../imag/chole.jpg');
+    background-size:initial;
+}
+#fv:active {
+    background-image: url('../imag/friends.jpg');
+    background-size: initial;
+}
+
+
