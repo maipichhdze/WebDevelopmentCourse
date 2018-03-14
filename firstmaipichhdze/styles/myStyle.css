@@ -1,13 +1,13 @@
 
-body 
-{
-    direction:rtl;
+body {
+    direction: rtl;
+    background-image: url('../imag/100.jpg');
 }
 #container {
     width: 960px;
     height: 635px;
     margin: auto;
-    background-image: url('../imag/100.jpg');
+  
 }
 header {
     width: 240px;
@@ -111,7 +111,12 @@ h2{
 
 #blue {
     color: blue;
-    list-style-image: url('../imag/f.PNG');
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    position: center;
+    background-image: url('../imag/f.PNG');
+    /*list-style-image: url('../imag/f.PNG');*/
     /*list-style-image: url('../imag/f.PNG');
     width:10px;
     height:10px;*/
@@ -119,7 +124,11 @@ h2{
 }
 #red {
     color: red;
-    list-style-image: url('../imag/maill.png');
+    background-image: url('../imag/maill.png');
+    width:17px;
+    height:12px;
+    position:absolute;
+    position:center;
     /*list-style-image: url('../imag/m.PNG');
     width: 10px;
     height: 10px;*/
@@ -166,10 +175,9 @@ h2{
         margin-top: 5px;
         list-style-type: none;
     }
-        #pic li:active {
+        #pic li:hover{
             width: 800px;
             height: 800px;
-         
             background-color: white;
             position: relative;
             bottom: 500px;
@@ -218,24 +226,24 @@ h2{
     width:50px;
     height:50px;
 }*/
-    #fi:active {
-        background-image: url('../imag/mac.jpg');
-        background-size: contain;
-    }
-#sec:active {
+#fi:hover {
+    background-image: url('../imag/mac.jpg');
+    background-size: cover;
+}
+#sec:hover {
     background-image: url('../imag/sport.jpg');
+    background-size: cover;
+}
+#th:hover {
+    background-image: url('../imag/famil.jpg');
     background-size: initial;
 }
-#th:active {
-    background-image: url('../imag/famil.jpg');
-    background-size:initial;
-}
 
-#fo:active {
+#fo:hover {
     background-image: url('../imag/chole.jpg');
-    background-size:initial;
+    background-size: initial;
 }
-#fv:active {
+#fv:hover {
     background-image: url('../imag/friends.jpg');
     background-size: initial;
 }
