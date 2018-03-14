@@ -111,12 +111,7 @@ h2{
 
 #blue {
     color: blue;
-    width: 17px;
-    height: 17px;
-    position: absolute;
-    position: center;
-    background-image: url('../imag/f.PNG');
-    /*list-style-image: url('../imag/f.PNG');*/
+    list-style-image: url('../imag/f.PNG');
     /*list-style-image: url('../imag/f.PNG');
     width:10px;
     height:10px;*/
@@ -124,11 +119,7 @@ h2{
 }
 #red {
     color: red;
-    background-image: url('../imag/maill.png');
-    width:17px;
-    height:12px;
-    position:absolute;
-    position:center;
+    list-style-image: url('../imag/maill.png');
     /*list-style-image: url('../imag/m.PNG');
     width: 10px;
     height: 10px;*/
