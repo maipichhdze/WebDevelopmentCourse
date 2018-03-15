@@ -112,10 +112,11 @@ h2{
 
 #blue {
     background-image: url('../imag/facebook8.png');
-    display:inline-block;
+    display: inline-block;
     width: 50px;
     height: 50px;
     background-repeat: no-repeat;
+    color: transparent;
     /*list-style-image: url('../imag/f.PNG');
     width:10px;
     height:10px;*/
@@ -128,6 +129,7 @@ h2{
     width: 50px;
     height: 50px;
     background-repeat: no-repeat;
+    color:transparent;
 
 }
 
