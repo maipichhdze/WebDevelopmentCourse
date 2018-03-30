@@ -1,0 +1,168 @@
+
+body {
+    direction: rtl;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+h1,h2{
+    font-size:40px;
+}
+#atid{
+    margin-right:30px;
+    font-size:30px;
+    color:black;
+    margin-top:-30px;
+}
+
+
+#container {  
+    background-image: url('../imag/COMPUTER.jpg');
+    width: 960px;
+    height: 635px;
+    margin: auto;
+
+}
+header {
+    font-size: 28px;
+    margin-right: 180px;
+    margin-top: 20px;
+    position: relative;
+    height: 80px;
+    color: green;
+}
+}
+.me:hover {
+    font-size: 25px;
+    width: 280px;
+    border: 1px solid black;
+    padding: 10px 10px 10px 10px;
+    background-color: white;
+    color: black;
+    text-align: right;
+    margin-top: 20px;
+}
+#keser{
+    margin-top:10px;
+    margin-right:305px;
+    color:white;
+
+}
+
+
+
+ul{
+    margin-right:15px;
+}
+h3 {
+
+}
+h2 {
+    font-size: large;
+    text-align: center;
+    margin-left: 253px;
+}
+.centr {
+    text-align: center;
+    margin-left:150px;
+}
+#silov{
+    margin-top:30px;
+    margin-right:90px;
+    color:white;
+}
+
+#curse {
+    margin-right:180px;
+}
+ .me {
+    margin-top: 20px;
+    width: 110px;
+    border: 1px solid black;
+    padding: 10px 10px 10px 10px;
+    background-color: white;
+    color: black;
+    display: inline-block;
+    -webkit-transition: all 800ms ease;
+    -moz-transition: all 800ms ease;
+    -ms-transition: all 800ms ease;
+    -o-transition: all 800ms ease;
+    transition: all 800ms ease;
+    ]
+}
+#two{
+
+}
+#me2{
+    margin-right:130px;
+    margin-top:30px;
+}
+.me1 {
+    margin-top:35px;
+    width:190px;
+    border: 1px solid black;
+    padding: 10px 10px 10px 10px;
+    background-color: white;
+    color: black;
+    margin-right:30px;
+    /*opacity: 0.7;*/
+    -webkit-transition: all 800ms ease;
+    -moz-transition: all 800ms ease;
+    -ms-transition: all 800ms ease;
+    -o-transition: all 800ms ease;
+    transition: all 800ms ease;
+    display:inline-block;
+    ]
+}
+    .me{
+        font-size:0px;
+    }
+    
+    
+    
+
+
+#facebook {
+    background-image: url('../imag/facebook8.png');
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    color: transparent;
+}
+    #facebook:hover {
+    background-image: url('../imag/facebook8.png');
+    display: inline-block;
+    width: 50px;
+    background-size:cover;
+    height: 50px;
+    background-repeat: no-repeat;
+    color: transparent;
+}
+
+form {
+    border: 1px solid black;
+    padding: 10px 10px 10px 10px;
+    background-color: #095B09;
+    color: black;
+    font-size: 25px;
+    float: left;
+    position: relative;
+    left: -150px;
+    top: -300px;
+}
+#nahzor{
+    color:white;
+    font-size:20px;
+    margin-bottom:-10px;
+}
+#hathla{
+    color: white;
+    font-size: 30px;
+}
+
+
+
+
+
