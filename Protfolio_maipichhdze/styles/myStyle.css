@@ -1,0 +1,271 @@
+body {
+    direction: rtl;
+    background-image: url('../Imag/FLA.png');
+}
+
+#container {
+    width: 960px;
+    margin: auto;
+}
+ /*כל התגים המכילים פונט מקבלים את הפונט וארלה*/
+p, h1, h2, a, li, span {
+    font-family: 'Varela Round', sans-serif;
+}
+/*עיצוב כותרת h1*/
+h1 {
+    color: #F4584D;
+    font-size: x-large;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right:50px;
+}
+/*עיצוב כותרות h2*/
+h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: large;
+    color: black;
+    text-align: center;
+}
+
+p, ul, li {
+    color: white;
+}
+P {
+    margin-top: 15px;
+    color: black;
+}
+/*עיצוב האיור שלי*/
+#MAIPICH {
+    background-size: 330px;
+    width: 330px;
+    /*background-image: url('../Imag/Asset 5.png');*/
+    background-image: url('../Imag/Asset 6.png');
+    height: 330px;
+    background-repeat: no-repeat;
+    margin-right: 240px;
+    margin-top: 20px;
+    margin-bottom: -80px;
+}
+/*עיצוב פתיח*/
+
+header {
+    text-align: center;
+    height: 80PX;
+    width: 100%;
+    border-radius: 7PX;
+}
+/*עיצובתפריט ניווט*/
+nav ul {
+    list-style: none;
+}
+
+    nav ul li {
+        display: inline-block;
+        position: center;
+    }
+
+        nav ul li a {
+            display: block;
+            /*background-color: #D4C2C2;*/
+            border-radius: 6px;
+            color: white;
+            width: 120px;
+            height: 30px;
+            padding-top: 10px;
+            text-decoration: none;
+            text-align: center;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+            nav ul li a:hover {
+                text-decoration: underline;
+            }
+
+            nav ul li a:active {
+                background-color: black;
+                color: white;
+            }
+
+nav {
+    margin-top: 10px;
+    width: 100%;
+    background-color: #3A3A3A;
+}
+/*עיצוב עמוד נוכחי*/
+.currentPage {
+    text-decoration: underline;
+    color: #F4584D;
+}
+#maitik {
+    margin-top: -8px;
+    font-size: 21PX;
+}
+
+#maitik2 {
+    margin-top: 20px;
+    font-size: 30PX;
+    color:black;
+
+}
+/*עיצוב כותרת h2 שנמצאים מתחת לתפריט ניווט*/
+#perot {
+    margin-top: 30px;
+    color: #F4584D;
+}
+
+/*ul #ulindexblack li {
+    color:black;
+}*/
+/*עיצוב פירוט על היצירות*/
+.perotdiv {
+    width: 500px;
+    position: center;
+    margin-right: 250px;
+    color: black;
+}
+/*עיצוב דיב יצירת קשר*/
+
+    #keser {
+    margin-top: 20px;
+    width: 240px;
+    padding: 10px 10px 10px 10px;
+    margin-right:360px;
+    background-color:white;
+    border-radius:7px;
+}
+
+.yzirotli {
+    display: block;
+    list-style:circle;
+    list-style-type:circle;
+    color:black;
+    margin-right:15px;
+}
+ul li {
+    list-style-type:none;
+    margin-top: 10px;
+}
+/*עיצוב הקישורים באינדקס*/
+.aindex {
+    font-weight: bold;
+}
+
+#YOUTUBE {
+    margin-right:20px;
+    display:inline-block;
+}
+/*עיצוב פייסבוק*/
+#facebook {
+    background-image: url('../Imag/WEBE.gif');
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    color: transparent;
+}
+
+    #facebook:hover {
+        /*background-image: url('../facebook8.png');*/
+        background-image: url('../Imag/WEBE.gif');
+        display: inline-block;
+        width: 50px;
+        background-size: cover;
+        height: 50px;
+        background-repeat: no-repeat;
+        color: transparent;
+    }
+/*עיצוב תמונה מייל*/
+#mail {
+    /*background-image: url('../MAIL50.png');*/
+    background-image: url('../Imag/WEBEmail.gif');
+    background-size: 46PX;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    color: transparent;
+    margin-right: 70px;
+}
+
+
+    #mail:hover {
+        /*background-image: url('../MAIL50.png');*/
+        background-image: url('../Imag/WEBEmail.gif');
+        background-size: 46PX;
+        display: inline-block;
+        width: 50px;
+        background-size: cover;
+        height: 50px;
+        background-repeat: no-repeat;
+        color: transparent;
+    }
+/*עיצוב יצירות בגודל מתאים ל300*/
+.pic {
+    background-size: 300px;
+    width: 300px;
+    height: 300px;
+    margin-top: 30px;
+    border-radius: 7PX;
+    display: inline-block;
+
+}
+    .pic:hover {
+        box-shadow: 5px 5px 8px black;
+        background-size: 310px;
+        width: 310px;
+        height: 310px;
+    }
+/*אנימציה לכלל היצירות*/
+.transition {
+    -webkit-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -ms-transition: all 0.7s ease;
+    -o-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+/*עיצוב לתמונת תקשורת חזותית*/
+#tiksorttpic {
+    width: 250px;
+    display: inline-block;
+    margin-right: 360px;
+}
+
+
+    .indexpic:hover {
+        box-shadow: 5px 5px 8px black;
+    }
+    #indexright {
+        width: 960px;
+    }
+/*עיצוב תמונת אנימה בנפרד גודל שונה*/
+#animahover:hover {
+    box-shadow: 5px 5px 8px black;
+    width: 610px;
+}
+/*לקיחת אלמנטים ימינה*/
+#gaficright {
+    position: relative;
+    right: 180px;
+}
+/*גודל לתמונת קורס ייצוג בלבד*/
+#picyzog {
+    width: 298px;
+    height: 425px;
+    background-size: 300px;
+    margin-right: 345px;
+}
+
+
+/*הצגת כלל היצירות בגודל מלא*/
+.picfull{
+    width:600px;
+    margin-right:185px;
+    margin-top:20px;
+}
+audio{
+    margin-right:185px;
+    margin-top:15px;
+    margin-bottom:-15px;
+}
