@@ -56,7 +56,7 @@ h1, h2, p {
     width: 62px;
 }
 /*navigate*/
-/*òéöåá úôøéè ğéååè*/
+/*×¢×™×¦×•×‘ ×ª×¤×¨×™×˜ × ×™×•×•×˜*/
 #white_nav {
     background-color: white;
     width: 960px;
@@ -1057,13 +1057,14 @@ input, textarea {
     }
 
 #paperplane {
-    z-index: 40;
+    z-index: 27;
+    background-image: url(../images/paper_plane.png);
     background-size: 135px;
     width: 135px;
-    height: 77px;
+    height: 90px;
     position: relative;
     right: 602px;
-    top: 59px;
+    top: 78px;
     display: inline-block;
 }
     /*about*/
@@ -1348,4 +1349,8 @@ font-size:12pt;
 
 .kavmthat{
     text-decoration:underline !important;
+}
+#tochen{
+    margin-bottom:20px;
+
 }
