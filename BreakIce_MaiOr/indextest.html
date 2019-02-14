@@ -1,0 +1,69 @@
+﻿<!doctype html>
+<html lang="he">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>שבור ת'קרחון</title>
+    <meta name="description" content="Break The Ice" />
+    <meta name="keywords" content="" />
+    <meta name="Mai Pichhadze Elbaz & Or Shamay" content="Break The Ice" />
+    <!-- CSS -->
+    <link href="styles/myStyle.css" rel="stylesheet" />
+    <!-- Scripts -->
+    <!--jQuery library-->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <!--הקוד שמפעיל את תפריט הניווט-->
+    <script src="jScripts/myScript.js"></script>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <!--קישור לדף עצמו כדי להתחיל את המשחק מחדש בלחיצה על הלוגו-->
+            <a href="indextest.html" id="unvisible">
+                <img id="logo" src="images/ice_logo.png" /> <!--הלוגו של המשחק שלכם-->
+                <p>שבור ת'קרחון</p>
+            </a>
+            <!--תפריט הניווט בראש העמוד-->
+            <nav>
+                <ul>
+                    <li><a class="about">אודות</a></li>
+                    <li><a class="howToPlay">איך משחקים?</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="aboutDiv" class="popUp bounceInDown hide">
+            <a class="closeAbout">X</a>
+            <h2>
+                אודות
+            </h2>
+            <p>
+                <div class="bold">
+                    אפיון ופיתוח:
+                </div>
+                <br />
+                מאי פיצ'חדזה אלבז ואור שמאי
+            </p>
+            <p>
+                <div class="bold">
+                    פותח במסגרת פרויקט בקורסים:
+                </div>
+                <br />
+                "סביבות לימוד אינטראקטיביות 1" & "אנימציה" תשע"ט
+            </p>
+            <img src="images/hit.png" width="110" />
+        </div>
+        <div id="howToPlayDiv" class="popUp bounceInDown hide">
+            <a class="closeHowToPlay">X</a>
+            <h2>
+                הוראות משחק
+            </h2>
+            <img src="images/MAIGIF8.gif" width="650" />
+        </div>
+        <div id="gameArea" class="">
+            <!--src = הקישור של דף המשחק שלכם (לא קובץ האנימייט)-->
+            <iframe id="gameIframe" src="break_ice_FINAL.html" frameBorder="0" allowfullscreen="">Browser not compatible.</iframe>
+        </div>
+    </div>
+</body>
+</html>
