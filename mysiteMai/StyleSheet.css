@@ -1,0 +1,45 @@
+﻿body {
+    direction: rtl;
+    background-color: pink;
+}
+
+div #h1p {
+    color: white;
+    background-image: url('surf.jpeg');
+    height:300px;
+    background-size:cover;
+    text-align:center;
+    padding:200px;
+}
+divdeo 
+video {
+    width: 500px;
+    margin-right: 300px;
+}
+
+#h2video {
+    color:blue;
+}
+
+
+#container {
+    display: block;
+}
+div #imag {
+    background-image: url('surf.jpeg');
+    background-size:cover;
+    color:white;
+    text-align: center;
+    height: 300px;
+    padding-top:150px;
+}
+
+div #surf {
+    text-align: center;
+    padding:20px;
+} 
+    @font-face {
+        font-family: 'GveretLevinAlefAlefAlef-Regular';
+        src: url('../fonts/GveretLevinAlefAlefAlef-Regular.ttf') format('truetype');
+    }
+
