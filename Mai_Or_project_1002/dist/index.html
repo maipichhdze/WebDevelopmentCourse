@@ -1,0 +1,505 @@
+﻿<!DOCTYPE html>
+<html lang="he">
+
+<head>
+    <meta charset="utf-8">
+    <title>פקודות שימושיות: מאמן פיקוח טיסה</title>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link href="../dist/style.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="phonegap.js" type="text/javascript"></script>
+    <script src="cordova.js" type="text/javascript"></script>
+</head>
+<body>
+    <header>
+        <!-- <button id="NavBTN" onclick="navFunc()"
+            value="ניווט">ניווט</button> -->
+        <div id=whiteBack>
+            <button id="hamburger" onclick="navFunc()">
+                <img id="navIn" src="\dist\images\mymenu.png">
+                <img id="exitNav" src="\dist\images\myexit.png">
+            </button>
+            <div id="myNav">
+                <nav>
+                    <ul>
+                        <li>
+                            <img class="img_menu" src="\dist\images\home.png">
+                            <a href="start.html">מסך ראשי</a>
+                        </li>
+                        <li>
+                            <img class="img_menu" src="\dist\images\search.png">
+                            <a href="index.html">
+                                פקודות שימושיות
+                            </a>
+                        </li>
+                        <li>
+                            <img class="img_menu" src="\dist\images\tip.png">
+                            <a href="Offers.html">טיפים</a>
+                        </li>
+                        <li>
+                            <img class="img_menu" src="\dist\images\simulator.png">
+                            <a href="simulator.html">מאמן פיקוח טיסה</a>
+                        </li>
+                        <li>
+                            <img class="img_menu" src="\dist\images\contact.png">
+                            <a href="contact.html">צור קשר</a>
+                        </li>
+                        <li>
+                            <img class="img_menu" src="\dist\images\about.png">
+                            <a href="about.html">אודות</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- <img src="./images/‏‏airport.png" style="height: 40px; margin-top: -150px;" /> -->
+            <!--<img src="../images/airplane-309386.png" style="height:30px; " />-->
+            <!--<img src="../images/aircraft-1293790.png" style="width:40px;height:40px; " />-->
+        </div>
+        <div id="myTitle">
+            <img id="myGradient" src="\dist\images\gradi.png">
+            <h2 class="center-block">רשימת פקודות</h2>
+        </div>
+    </header>
+
+
+
+
+    <!-- partial:index.partial.html -->
+    <div class="col-lg-12 col-md-12 col-sm-12" id="allContent">
+        <div class="container">
+            <div class="row">
+                <section class="panel panel-default">
+                    <div class="panel-body">
+
+                        <div class="row">
+                            <!--<div class="col-lg-3">
+                                <br />
+                                <br />
+
+                            </div>-->
+
+                            <div class="input-group col-lg-12 col-md-12 col-sm-12">
+                                <input type="search" id="accordion_search_bar" class="form-control"
+                                       placeholder="חפשו את הפקודה הרצויה">
+
+                                <!-- /input-group -->
+                            </div>
+                            <!-- /.col-lg-6 -->
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+
+                                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+                                    <div class="panel panel-default" id="collapseOne_container">
+                                        <div id="acord0">
+                                            <div class="panel-heading" role="tab" id="headingOne">
+                                                <h4 class="panel-title">
+                                                    <a class="collapsed " role="button" data-toggle="collapse"
+                                                       data-parent="#accordion" href="#collapseOne"
+                                                       aria-expanded="true" aria-controls="collapseOne">
+                                                        <i class="" aria-hidden="true"></i>
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseOne" class="panel-collapse collapse in, back_color"
+                                                 role="tabpanel" aria-labelledby="headingOne">
+                                                <div class="panel-body">
+                                                    <p>
+                                                    </p>
+                                                    <p>
+                                                    </p>
+                                                    <img>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="panel panel-default " id="collapseTwo_Container">
+                                        <div id="acord1">
+                                            <div class="panel-heading" role="tab" id="headingTwo">
+                                                <h4 class="panel-title">
+                                                    <a class="collapsed " role="button" data-toggle="collapse"
+                                                       data-parent="#accordion" href="#collapseTwo"
+                                                       aria-expanded="false" aria-controls="collapseTwo">
+                                                        <i class="" aria-hidden="true"></i>
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseTwo" class="panel-collapse collapse in, back_color"
+                                                 role="tabpanel" aria-labelledby="headingTwo">
+                                                <div class="panel-body">
+                                                    <p>
+                                                    </p>
+                                                    <p>
+                                                    </p>
+                                                    <img>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="panel panel-default " id="collapseThree_Container">
+                                        <div id="acord2">
+                                            <div class="panel-heading" role="tab" id="headingThree">
+                                                <h4 class="panel-title">
+                                                    <a class="collapsed" role="button" data-toggle="collapse"
+                                                       data-parent="#accordion" href="#collapseThree"
+                                                       aria-expanded="false" aria-controls="collapseThree">
+                                                        <i class="" aria-hidden="true"></i>
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseThree" class="panel-collapse collapse in, back_color"
+                                                 role="tabpanel" aria-labelledby="headingThree">
+                                                <div class="panel-body">
+                                                    <p>
+                                                    </p>
+                                                    <p>
+                                                    </p>
+                                                    <img>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="panel panel-default " id="collapseFour_Container">
+                                        <div id="acord3">
+                                            <div class="panel-heading" role="tab" id="headingFour">
+                                                <h4 class="panel-title">
+                                                    <a class="collapsed" role="button" data-toggle="collapse"
+                                                       data-parent="#accordion" href="#collapseFour"
+                                                       aria-expanded="false" aria-controls="collapseFour">
+                                                        <i class="" aria-hidden="true"></i>
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseFour" class="panel-collapse collapse in, back_color"
+                                                 role="tabpanel" aria-labelledby="headingFour">
+                                                <div class="panel-body">
+                                                    <p>
+                                                    </p>
+                                                    <p>
+                                                    </p>
+                                                    <img>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+
+
+
+                                    <div class="panel panel-default " id="collapseFive_Container">
+                                        <div id="acord4">
+                                            <div class="panel-heading" role="tab" id="headingFive">
+                                                <h4 class="panel-title">
+                                                    <a class="collapsed" role="button" data-toggle="collapse"
+                                                       data-parent="#accordion" href="#collapseFive"
+                                                       aria-expanded="false" aria-controls="collapseFive">
+                                                        <i class="" aria-hidden="true"></i>
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseFive" class="panel-collapse collapse in, back_color"
+                                                 role="tabpanel" aria-labelledby="headingFive">
+                                                <div class="panel-body">
+                                                    <p>
+                                                    </p>
+                                                    <p>
+                                                    </p>
+                                                    <img>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                    <div class="panel panel-default " id="collapseSix_Container">
+                                        <div id="acord5">
+                                            <div class="panel-heading" role="tab" id="headingSix">
+                                                <h4 class="panel-title">
+                                                    <a class="collapsed" role="button" data-toggle="collapse"
+                                                       data-parent="#accordion" href="#collapseSix"
+                                                       aria-expanded="false" aria-controls="collapseSix">
+                                                        <i class="" aria-hidden="true"></i>
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseSix" class="panel-collapse collapse in, back_color"
+                                                 role="tabpanel" aria-labelledby="headingSix">
+                                                <div class="panel-body">
+                                                    <p>
+                                                    </p>
+                                                    <p>
+                                                    </p>
+                                                    <img>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                    <div class="panel panel-default " id="collapseSeven_Container">
+                                        <div id="acord6">
+                                            <div class="panel-heading" role="tab" id="headingSeven">
+                                                <h4 class="panel-title">
+                                                    <a class="collapsed" role="button" data-toggle="collapse"
+                                                       data-parent="#accordion" href="#collapseSeven"
+                                                       aria-expanded="false" aria-controls="collapseSeven">
+                                                        <i class="" aria-hidden="true"></i>
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseSeven" class="panel-collapse collapse in, back_color"
+                                                 role="tabpanel" aria-labelledby="headingSeven">
+                                                <div class="panel-body">
+                                                    <p>
+                                                    </p>
+                                                    <p>
+                                                    </p>
+                                                    <img>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                    <div class="panel panel-default " id="collapseEight_Container">
+                                        <div id="acord7">
+                                            <div class="panel-heading" role="tab" id="headingEight">
+                                                <h4 class="panel-title">
+                                                    <a class="collapsed" role="button" data-toggle="collapse"
+                                                       data-parent="#accordion" href="#collapseEight"
+                                                       aria-expanded="false" aria-controls="collapseEight">
+                                                        <i class="" aria-hidden="true"></i>
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseEight" class="panel-collapse collapse in, back_color"
+                                                 role="tabpanel" aria-labelledby="headingEight">
+                                                <div class="panel-body">
+                                                    <p>
+                                                    </p>
+                                                    <p>
+                                                    </p>
+                                                    <img>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                    <div class="panel panel-default " id="collapseNine_Container">
+                                        <div id="acord8">
+                                            <div class="panel-heading" role="tab" id="headingNine">
+                                                <h4 class="panel-title">
+                                                    <a class="collapsed" role="button" data-toggle="collapse"
+                                                       data-parent="#accordion" href="#collapseNine"
+                                                       aria-expanded="false" aria-controls="collapseNine">
+                                                        <i class="" aria-hidden="true"></i>
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseNine" class="panel-collapse collapse in, back_color"
+                                                 role="tabpanel" aria-labelledby="headingNine">
+                                                <div class="panel-body">
+                                                    <p>
+                                                    </p>
+                                                    <p>
+                                                    </p>
+                                                    <img>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                    <div class="panel panel-default " id="collapseTen_Container">
+                                        <div id="acord9">
+                                            <div class="panel-heading" role="tab" id="headingTen">
+                                                <h4 class="panel-title">
+                                                    <a class="collapsed" role="button" data-toggle="collapse"
+                                                       data-parent="#accordion" href="#collapseTen"
+                                                       aria-expanded="false" aria-controls="collapseTen">
+                                                        <i class="" aria-hidden="true"></i>
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseTen" class="panel-collapse collapse in, back_color"
+                                                 role="tabpanel" aria-labelledby="headingTen">
+                                                <div class="panel-body">
+                                                    <p>
+                                                    </p>
+                                                    <p>
+                                                    </p>
+                                                    <img>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                    <div class="panel panel-default " id="collapseEleven_Container">
+                                        <div id="acord10">
+                                            <div class="panel-heading" role="tab" id="headingEleven">
+                                                <h4 class="panel-title">
+                                                    <a class="collapsed" role="button" data-toggle="collapse"
+                                                       data-parent="#accordion" href="#collapseEleven"
+                                                       aria-expanded="false" aria-controls="collapseEleven">
+                                                        <i class="" aria-hidden="true"></i>
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseEleven" class="panel-collapse collapse in, back_color"
+                                                 role="tabpanel" aria-labelledby="headingEleven">
+                                                <div class="panel-body">
+                                                    <p>
+                                                    </p>
+                                                    <p>
+                                                    </p>
+                                                    <img>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                    <div class="panel panel-default " id="collapseTwelfth_Container">
+                                        <div id="acord11">
+                                            <div class="panel-heading" role="tab" id="headingTwelfth">
+                                                <h4 class="panel-title">
+                                                    <a class="collapsed" role="button" data-toggle="collapse"
+                                                       data-parent="#accordion" href="#collapseTwelfth"
+                                                       aria-expanded="false" aria-controls="collapseTwelfth">
+                                                        <i class="" aria-hidden="true"></i>
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseTwelfth" class="panel-collapse collapse in, back_color"
+                                                 role="tabpanel" aria-labelledby="headingTwelfth">
+                                                <div class="panel-body">
+                                                    <p>
+                                                    </p>
+                                                    <p>
+                                                    </p>
+                                                    <img>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                    <div class="panel panel-default " id="collapseThirteen_Container">
+                                        <div id="acord12">
+                                            <div class="panel-heading" role="tab" id="headingThirteen">
+                                                <h4 class="panel-title">
+                                                    <a class="collapsed" role="button" data-toggle="collapse"
+                                                       data-parent="#accordion" href="#collapseThirteen"
+                                                       aria-expanded="false" aria-controls="collapseThirteen">
+                                                        <i class="" aria-hidden="true"></i>
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseThirteen" class="panel-collapse collapse in, back_color"
+                                                 role="tabpanel" aria-labelledby="headingThirteen">
+                                                <div class="panel-body">
+                                                    <p>
+                                                    </p>
+                                                    <p>
+                                                    </p>
+                                                    <img>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="panel panel-default " id="collapseFourteen_Container">
+                                        <div id="acord13">
+                                            <div class="panel-heading" role="tab" id="headingFourteen">
+                                                <h4 class="panel-title">
+                                                    <a class="collapsed" role="button" data-toggle="collapse"
+                                                       data-parent="#accordion" href="#collapseFourteen"
+                                                       aria-expanded="false" aria-controls="collapseFourteen">
+                                                        <i class="" aria-hidden="true"></i>
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseFourteen" class="panel-collapse collapse in, back_color"
+                                                 role="tabpanel" aria-labelledby="headingFourteen">
+                                                <div class="panel-body">
+                                                    <p>
+                                                    </p>
+                                                    <p>
+                                                    </p>
+                                                    <img>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- <div class="panel panel-default " id="collapseFifteen_Container">
+                                        <div id="acord14">
+                                            <div class="panel-heading" role="tab" id="headingFifteen">
+                                                <h4 class="panel-title">
+                                                    <a class="collapsed" role="button" data-toggle="collapse"
+                                                        data-parent="#accordion" href="#collapseFifteen"
+                                                        aria-expanded="false" aria-controls="collapseFifteen">
+                                                        <i class="" aria-hidden="true"></i>
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseFifteen" class="panel-collapse collapse in, back_color"
+                                                role="tabpanel" aria-labelledby="headingFifteen">
+                                                <div class="panel-body">
+                                                    <p>
+                                                    </p>
+                                                    <p>
+                                                    </p>
+                                                    <img>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> -->
+
+
+
+
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- Row -->
+                    </div>
+                    <!-- Col -->
+                </section>
+            </div>
+        </div>
+    </div>
+    <!-- Container -->
+    <!-- partial -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+    <script src="./script.js"></script>
+    <script src="./myJson.js"></script>
+
+</body>
+
+</html>
