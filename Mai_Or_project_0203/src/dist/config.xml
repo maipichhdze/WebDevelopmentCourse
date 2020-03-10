@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.phonegap.example"
+    versionCode = "10"
+    version     = "1.0.0" >
+
+  <!-- versionCode is optional and Android only -->
+
+  <name>Or</name> 
+
+  <description>
+    The app description
+  </description>
+
+  <author href="https://build.phonegap.com" email="support@phonegap.com">
+    author Name
+  </author>
+  
+
+  <preference name="phonegap-version" value="cli-7.1.0" />
+  <preference name="target-device" value="universal" />
+  <!-- all: possible values handset, tablet, or universal -->
+  <preference name="android-minSdkVersion" value="16" />
+  <!--android-minSdkVersion specifies the minimum Android SDK version used to compile the project. 15 for Android 4.0.3-->
+
+  <!-- app  platform-->
+ <platform name="ios" />
+ <platform name="android" /> 
+
+  <!-- app  icon-->
+ <!--<icon src="res/icon.png" gap:role="default"/> --> 
+<!--<splash src="res/splash.png" /> -->
+  
+  <preference name="SplashScreenDelay" value="5000" />
+  <!-- image appear when app start -->
+  <preference name="show-splash-screen-spinner" value="true" />
+  <preference name="orientation" value="portrait" />
+  <preference name="fullscreen"       value="false" />
+  <preference name="stay-in-webview" value="true" />
+  <preference name="target-device"    value="universal" />
+
+  <plugin name="cordova-plugin-camera" spec="~4.1.0" />
+  <gap:plugin name="cordova-plugin-x-socialsharing" source="npm" />
+
+</widget>

@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+body {
+    /*background: #29AB87;*/
+    /*background-image: url("http://www.chrislanejones.com/wp-content/uploads/2017/03/bigstock-Beautiful-Waterfall-On-Guadelo-114611036.jpg");*/
+    direction: rtl;
+    font-family: 'Arimo';
+    /*background: #CDDEF7; /* fallback for old browsers */
+    background-color: white;
+    /*background: -webkit-linear-gradient(to bottom, #F8FBFF, white, #F8FBFF); /* Chrome 10-25, Safari 5.1-6 */
+    /*background: linear-gradient(to bottom, #F8FBFF, white, #F8FBFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (min-width: 600px) {
+    body {
+        zoom: 60%;
+    }
+}
+
+.container {
+    border: none !important;
+    width: 750px !important;
+    margin-top: -4%;
+}
+
+/*תפריט ניווט*/
+
+#whiteBack{
+    width: 100%;
+    height: 6em;
+    /* border: none; */
+    background-color: #FAF9FB;
+    -webkit-box-shadow: 0px 3px 15px -6px rgba(0,0,0,0.71);
+    -moz-box-shadow: 0px 3px 15px -6px rgba(0,0,0,0.71);
+    box-shadow: 0px 3px 15px -6px rgba(0,0,0,0.71);
+}
+
+#hamburger{
+width: 80px;
+height: 80px;
+border:none;
+margin: 0 1% 0 0;
+background-color: transparent;
+/*
+background: #FF5F6D;  
+background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D); 
+background: linear-gradient(to right, #FFC371, #FF5F6D); 
+*/
+display: inline-block;
+
+
+}
+
+#hamburger:hover{
+    width: 80px;
+    height: 80px;
+    border:none;
+    /* background: #FF5F6D;  
+    background: -webkit-linear-gradient(to left, #FFC371, #FF5F6D);  
+    background: linear-gradient(to left, #FFC371, #FF5F6D);  
+    transform: rotate(360deg);
+    transition-duration: 0.7s, 0.7s, 0.7s, 0.7s;*/
+    }
+
+    #navIn, #exitNav{
+        color: #6A4C82!important;
+        height: 4em;
+    }
+
+
+#myNav{
+    background:white; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+       width: 100%;
+    /*height: 100%;*/
+   position: absolute;
+   z-index: 2;
+
+}  
+nav{
+    margin-left: auto;
+    margin-right: auto; 
+       margin-right: 2em;
+       margin-top: 8em;
+
+}
+
+
+#myNav ul li{
+    margin: 2em;
+    display: block;
+    text-align: right;
+}
+
+#myNav ul{
+    list-style-type: none;
+
+}
+
+#myNav ul a{
+    font-size: 3em;
+    color: #4E3860; /* fallback for old browsers */  
+}
+
+#myNav ul a:hover{
+    font-size: 3em;
+}
+
+/*תפריט ניווט*/
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+
+
+
+.btn btn-default{
+    border:none!important;
+    border-radius:20px;
+} 
+
+/*
+h1 {
+    margin-right:0.8%;
+    font-family: 'Rubik', sans-serif;
+  color:#21375E;
+    font-size:1.8em;
+     margin-bottom:0.1%;
+      display: inline-block;
+}
+*/
+
+#myGradient{
+width:100%;   
+height:25em;
+margin-bottom: -20em;
+/*
+background: rgb(79,57,97);
+background: linear-gradient(319deg, rgba(79,57,97,1) 0%, rgba(234,114,140,1) 50%, rgba(243,212,212,1) 100%);
+*/
+/*clip-path: polygon(0% 0, 100% 50%, 50% 100%, 0 50%);*/
+}
+
+#myTitle{
+    display: inline;
+}
+
+
+.img_menu{
+    height: 4em;
+margin-left: 2em;
+margin-top: -2.5em;;
+}
+
+
+h2{
+    color: white;
+    font-size:4.5em;
+    padding: 1% 0 3% 0;
+    margin-bottom: 0.5em;
+
+}
+
+h3{
+    color: white;
+    font-size:3em;
+     margin-bottom:5%;
+}
+
+.input-group {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.panel {
+    margin-top: 10px;
+    border: none !important;
+    /*background-color: rgba(255, 255, 255, .9) !important;*/
+    background-color:transparent;
+
+}
+
+    .panel-heading a{
+        text-decoration: none;  
+    }
+    .panel-heading a:hover{
+        text-decoration: none;        
+    }
+
+    .panel-title{
+        font-size: 2.7em;
+        background: #4E3860;
+        color: white !important;
+        height: 100%;
+        width: 23em;
+        margin-right: -10%;
+        padding: 1em;
+        border-radius: 20px;
+        box-shadow: 1px 3px 6px -2px black;
+        z-index: 10;
+        position: relative;
+    } 
+    
+    .panel-title:hover {
+        background: rgb(59, 31, 82);
+    }
+
+    .back_color {
+        background-color: #E3DDE7;
+        width: 62.1em;
+        margin-right: -7.6%;
+        border-radius: 30px
+        
+    }
+
+    .back_color p{
+        color: rgb(59, 31, 82);
+        padding: 0.2em 1em;
+    }
+
+    .back_color img{
+        padding: 0 31%;
+    }
+
+.panel-body {
+    /* width: 100% !important; */
+    margin: 0 auto !important;
+    padding: 0px!important;
+}
+
+p {
+    font-size: 2.3em;
+}
+
+
+#accordion_search_bar {
+    border-radius: 50px;
+    box-shadow: 3px 6px 19px -7px black;
+    height: 3em;
+    font-size: 2.7em;
+    width: 23em;
+    margin-right: -37px;
+    padding: 0.2em 1em;
+}
+
+.btn-default {
+  border: solid 1.5px #ccc;
+}
+
+.fa-search {
+  font-size: 1.8em;
+}
+
+.fa-paw {
+  font-size: 1.8em;
+  color: #6B7F7A;
+}
+
+.context{
+    background-color: white;
+    opacity: 0.96;
+    border-radius: 30px;
+    box-shadow: 3px 6px 19px -7px black;
+    margin-top: 2em;
+    height: 100%;
+    color: rgb(59, 31, 82);
+    padding: 2em;
+}
+
+.gm-style-iw.gm-style-iw-c {
+    font-size: 4em;
+}
+
+        
+/*form*/
+#sendBTN, #Send {
+    background-color: #4E3860;
+    box-shadow: 3px 6px 19px -7px black;
+    color: white;
+    font-size: 1.5em;
+    width: 5em;
+    height: 2.3em;
+    display: block;
+    border-radius: 30px;
+    border: none;
+    margin-right: 38%;
+    margin-top: 7%;
+}
+
+#sendBTN:hover{
+    background-color:  rgb(59, 31, 82);
+
+}
+
+label {
+    margin-top: 1em;
+    font-size: 1.8em;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 0.9em;
+    margin-bottom: 0.5em;
+    display: block;
+}
+
+#typeTxt, #myMs{
+    height: 9em;}
+
+input {
+    background-color: #E3DDE7;
+    border-radius: 30px;
+    font-size: 1.8em;
+    height: 2.3em;
+    padding: 1em;
+    width: 25em;
+    border: none;
+    display: block;
+}
+
+textarea {
+    background-color: #E3DDE7;
+    border-radius: 30px;
+    font-size: 1.8em;
+    height: 4.3em;
+    padding: 1em;
+    width: 25em;
+    border: none;
+    display: block;
+    resize: none;
+
+}
+/*form*/
+.homeBTN {
+    font-size: 2.7em;
+    background: #4E3860;
+    color: white !important;
+    height: 6em;
+    width: 21em;
+    padding-right: 334px;
+    text-align: right;
+    margin-right: -10%;
+    border-radius: 20px;
+    box-shadow: 1px 3px 6px -2px black;
+    border: none;
+    display: inline;
+}
+.homeBTN:hover{
+    background: rgb(59, 31, 82);
+
+}
+
+.homeImg{
+    padding: 0px;
+    border-radius: 20px;
+    width: 40%;    /* display: inline; */
+    /* z-index: 11; */
+    position: relative;
+    /* margin-top: -41px; */
+    margin-right: -76px;
+    /* float: right; */
+    margin-bottom: -17.6em;
+
+}
+
+
+.home_buttons{
+    margin:2em 0 0 0;
+}
+
+#home_container{
+    margin-top: 14em;
+    margin-right: 2em;
+    margin-bottom: 4em;
+}
