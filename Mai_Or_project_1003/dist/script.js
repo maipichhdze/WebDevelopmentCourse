@@ -119,7 +119,7 @@ function BTNgoTopkudot(){
 
 function BTNgoTotips(){
 
-  window.location.href = "offers.html";
+  window.location.href = "Offers.html";
 
 }
 
