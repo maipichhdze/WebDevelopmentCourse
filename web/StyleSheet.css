@@ -1,0 +1,57 @@
+﻿body {
+ 
+    
+   
+}
+
+header {
+    background-image: url('5cba2aba229c4_thumb900.jpg');
+    background-size:cover;
+}
+a {
+    color: cornflowerblue;
+    text-decoration: none;
+    font-size: 40px;
+    background-color:red;
+    padding:1.5%;
+    margin-right:2%;
+    vertical-align:middle;
+}
+
+
+a:hover{
+    color:yellow;
+}
+
+h1 {
+    color: #FFFFFF;
+
+
+    font-size: 105px;
+
+
+    text-align:center;
+
+
+ 
+}
+
+
+p{
+    color:red;
+
+
+    font-size:80PX;
+
+    text-align:center;
+
+    font-style:oblique;
+
+    
+}
+#logo:hover{
+
+
+ width:110%;
+
+}
