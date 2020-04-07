@@ -1,0 +1,56 @@
+﻿body {
+    direction: rtl;
+    background-image: url('hands-600497_1920.jpg');
+    background-size: contain !important;
+    background-repeat: repeat-x;
+}
+h1 {
+    
+    font-size:40px;
+    color: black;
+}
+a:hover {
+    color: blue;
+    background-color: aqua;
+    
+  
+}
+a {
+    padding: 1.5em;
+    margin-right: 1.5em;
+}
+
+p{
+    font-size:2em;
+}
+#p1{
+    font-weight:bold;
+    color:blue;
+    
+}
+
+#divPatih{
+    background-color:white;
+    opacity:0.7
+}
+#t1{
+    font-weight:bold;
+    color:blue;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    text-align: center;
+
+}
+.wrapper img{
+    width:80%;
+    
+}
+
+    .wrapper div p{
+        background-color: white;
+        opacity: 0.7;
+    }
+
+
