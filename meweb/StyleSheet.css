@@ -1,0 +1,54 @@
+﻿body {
+    background-size:cover;
+    background-image: url('photo-of-person-typing-on-computer-keyboard-735911 (1).jpg');
+    direction: rtl;
+}
+h1 {
+    color: white;
+    font-size: 80px
+}
+p {
+    color: white;
+    font-size: 40px
+}
+a{
+    color:yellow;
+    text-decoration:none;
+    padding:0.5%;
+    font-size:2em;
+    margin:1.5%
+}
+#p1{
+    font-weight:bold;
+}
+a:hover{
+    color:white;
+    background-color:red;
+}
+#h31 {
+    color: white;
+    font-size:1.5em
+}
+h3 {
+    color: white;
+    font-size: 1.5em
+}
+
+h2 {
+    color: white;
+    font-size: 2em
+}
+
+.tytyt{
+    display:grid;
+    grid-template-columns:15% 20% 20% 20% 25% ;
+    grid-gap:2em;
+}
+
+.tytyt img{
+    width:100%
+}
+h4 {
+    color: white;
+    font-size: 1em
+}
